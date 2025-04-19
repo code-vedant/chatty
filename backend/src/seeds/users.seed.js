@@ -13,7 +13,7 @@ const seedDatabase = async () => {
 
     await User.insertMany(seedUsers);
   } catch (error) {
-    console.error("Error seeding database:", error);
+    console.error("Error seeding database", error);
   }
 };
 
