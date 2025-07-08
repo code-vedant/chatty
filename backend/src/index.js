@@ -23,7 +23,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(
   cors({
-    origin: ["http://localhost:5173","https://chattynew.vercel.app",process.env.VITE_URL],
+    origin: ["http://localhost:5173","https://chatty-cffh.onrender.com",process.env.VITE_URL],
     credentials: true,
   })
 );
